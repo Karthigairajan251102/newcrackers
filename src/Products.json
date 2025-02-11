@@ -1,0 +1,45 @@
+{
+    "pots":[
+        {"name": "Ashoka" , "image" : "./src/assets/pots/ashoka.png", "price": 200},
+        {"name": "Giants" , "image" : "./src/assets/pots/giants.png", "price": 300},
+        {"name": "Small" , "image" : "./src/assets/pots/small.jpg", "price": 100}
+    ],
+    "chakkar":[
+        {"name": "Ashoka" , "image" : "./src/assets/chakkar/ashoka.jpg", "price": 200},
+        {"name": "Giants" , "image" : "./src/assets/chakkar/small.jpg", "price": 300},
+        {"name": "Small" , "image" : "./src/assets/chakkar/big.jpg", "price": 100}
+    ],
+    "star":[
+        {"name": "Big" , "image" : "./src/assets/star/big.jpg", "price": 50},
+        {"name": "Small" , "image" : "./src/assets/star/small.jpg", "price": 30},
+        {"name": "Pencil" , "image" : "./src/assets/star/pencil.jpg", "price": 50}
+    ],
+    "rocket":[
+        {"name": "Big" , "image" : "./src/assets/rocket/big.jpg", "price": 200},
+        {"name": "Baby Rocket" , "image" : "./src/assets/rocket/baby.jpg", "price": 100},
+        {"name": "Cracking Rocket" , "image" : "./src/assets/rocket/fire.jpg", "price": 300}
+    ],
+    "spark":[
+        {"name": "Red" , "image" : "./src/assets/sparklers/red.png", "price": 50},
+        {"name": "Green" , "image" : "./src/assets/sparklers/green.jpg", "price": 50},
+        {"name": "Yellow" , "image" : "./src/assets/sparklers/yellow.jpg", "price": 50}
+    ],
+    "bomb":[
+        {"name": "Kuruvi" , "image" : "./src/assets/bomb/kuruvi.png", "price": 200},
+        {"name": "Lakshmi" , "image" : "./src/assets/bomb/lakhshmi.jpg", "price": 100},
+        {"name": "Auto Bomb" , "image" : "./src/assets/bomb/auto.jpg", "price": 300}
+    ],
+    "fount":[
+        {"name": "Yellow" , "image" : "./src/assets/fount/yellow.jpg", "price": 200},
+        {"name": "Electric" , "image" : "./src/assets/fount/electric.jpg", "price": 100},
+        {"name": "Blue" , "image" : "./src/assets/fount/blue.jpg", "price": 300}
+    ],
+    "fancy":[
+        {"name": "Single" , "image" : "./src/assets/fancy/single.jpg", "price": 200},
+        {"name": "30 Shot" , "image" : "./src/assets/fancy/thirty.jpg", "price": 400},
+        {"name": "60 Shot" , "image" : "./src/assets/fancy/sixty.jpg", "price": 700},
+        {"name": "120 Shot" , "image" : "./src/assets/fancy/onetwenty.jpg", "price": 800},
+        {"name": "240 Shot" , "image" : "./src/assets/fancy/two40.jpg", "price": 900},
+        {"name": "520 Shot" , "image" : "./src/assets/fancy/five20.png", "price": 1000}
+    ]
+}

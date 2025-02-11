@@ -1,0 +1,46 @@
+.cartContainer{
+    display: flex;
+    justify-content: end;
+}
+
+/* PRODUCTS LIST */
+.prodTitle{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: #29335c;
+}
+.prodImageContainer{
+    display: flex;
+    justify-content: center;
+}
+.prodImage{
+    height: 200px;
+}
+.prodImage:hover{
+    transform: scale(1.1);
+}
+.prodDetails{
+    margin-top: 3px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.quantity{
+    display: flex;
+    justify-content: center;
+}
+.quaninput{
+    width: 50px;
+}
+.prodBtnContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.prodBtn{
+    background-color: #29335c;
+    border: none;
+}
+.prodBtn:hover{
+    background-color: #29335c;
+}

@@ -1,0 +1,71 @@
+
+.contactText{
+    margin-top: 50px;
+    height: 500px;
+    background-image: url(../assets/images/contact.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+
+/* CONTACT DETAILS */
+.conDetails{
+    margin-top: 50px;    
+}
+.conDetailsImage{
+    width: 50%;
+    height: 200px;
+}
+.conDetails h6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+.conDetails h4{
+    color: #29335c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+.conDetails a{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+.email{
+    display: flex;
+}
+.qr{
+    width: 40%;
+    height: 150px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 700px){
+    .smnone  {
+        display: none;
+    }
+}
+
+/* DELIVERY DETAILS */
+
+.deliveryDetails{
+    margin-top: 50px;
+    background-color: #29335c;
+    color: white;
+    text-align: center;
+}
+
+.deliveryIcon{
+    width: 20%;
+}
+.delText{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
