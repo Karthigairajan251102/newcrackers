@@ -9,9 +9,7 @@ import { useNavigate } from 'react-router-dom';
 function About() {
   const navigate = useNavigate();
 
-  const handleClick = () =>{
-    navigate('/order')
-  }
+  
   return (
     <>
     <Navs/>
@@ -34,9 +32,6 @@ function About() {
             NEW CRACKERS is a family of delightful cracker brands and a collection of select 
             joyspreading and safe fireworks
             </h6>
-            <Container className='aboutButtonContainer'>
-                <Button type='submit' className='aboutButton' onClick={handleClick()}>Order</Button>
-            </Container>
             </Col>
         </Row>
     </Container>

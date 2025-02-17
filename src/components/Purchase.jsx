@@ -1,5 +1,4 @@
 import React from 'react'
-import product from '../Products.json'
 import '../styles/Purchase.css'
 import { Button,Container,Image, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

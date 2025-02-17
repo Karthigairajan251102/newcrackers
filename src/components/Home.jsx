@@ -35,7 +35,7 @@ function Home() {
         </Container>
         </Col>
         <Col lg='8'>
-        <h2 className='buy'>Buy Brandred Sivakasi Crackers at Newcrackers</h2>
+        <h2 className='buy mt-5'>Buy Brandred Sivakasi Crackers at Newcrackers</h2>
         <h6 className='detailsCrack'>We have immense pleasure in welcoming you to visit our mega 
           fireworks showroom located in Sivakasi, where you can directly place your 
           valuable orders and fulfill all your cracker’s requirements at one stop.<br></br><br></br><br></br>
@@ -44,7 +44,7 @@ function Home() {
           customers with the best quality crackers at the lowest market prices.
           </h6>
 
-          <Button type='submit' className='order'  >Order</Button>
+         
         </Col>
       </Row>
     </Container>
