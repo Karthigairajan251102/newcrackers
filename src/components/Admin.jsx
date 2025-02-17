@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux';
-import { showElement} from '../redux/CrackerSlice';
+import { showElement } from '../redux/CrackerSlice';
 import { Button, Container } from 'react-bootstrap';
 
 function Admin() {

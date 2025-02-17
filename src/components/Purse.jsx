@@ -1,11 +1,11 @@
 import React from 'react'
 import { Provider } from "react-redux";
-import store from "../redux/Store";
+import Store from '../redux/Store'
 import Purchase from './Purchase';
 function Purse() {
   return (
     <>
-    <Provider store={store}>    
+    <Provider store={Store}>    
         <Purchase/>
     </Provider>
     </>

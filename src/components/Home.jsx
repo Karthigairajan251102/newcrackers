@@ -13,15 +13,13 @@ import Contact from '../components/Contact'
 import pommai from '../assets/images/pommai.png'
 import diwali11 from '../assets/images/diwali11.jpg'
 import diamond from '../assets/images/diamond.png'
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
 
-  const navigate = useNavigate();
+  
+  
 
-  const goOrder = () =>{
-    navigate("/order");
-  }
   return (
     <>
     <Navs/>
@@ -46,7 +44,7 @@ function Home() {
           customers with the best quality crackers at the lowest market prices.
           </h6>
 
-          <Button type='submit' className='order' onClick={goOrder()}>Order</Button>
+          <Button type='submit' className='order'  >Order</Button>
         </Col>
       </Row>
     </Container>
@@ -89,7 +87,6 @@ function Home() {
         <Image src={diamond}/>
         <h6>We aim to make our customers satisfied and happy with all of our innovative crackers.<br></br>
         We are available and we are the best choice for your crackers needs.</h6>
-        <Button type='submit' onClick={goOrder()}>Order</Button>
       </Container>
     </Container>
     
